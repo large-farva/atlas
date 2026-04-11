@@ -3,10 +3,12 @@
 
 # TODO: offer multiple images for hardware compatibility
 
+# Base image locked to 43 until I figure out Plasma Login Manager.
+
 name: outpost
 description: "Fedora Kinoite based image with built-in DoD CAC support."
 base-image: quay.io/fedora/fedora-kinoite
-image-version: latest
+image-version: 43
 blue-build-tag: none
 platforms: 
   - linux/amd64
